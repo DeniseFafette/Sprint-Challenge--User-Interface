@@ -66,6 +66,32 @@ p {
     line-height: 1.4;
 }
 
+.navigation {
+    display: flex;
+	justify-content: space-between;
+	align-items: center;
+    width: 65%;
+    margin: 0 auto;
+    padding: 40px;
+    /* border: 1px solid blue; */
+}
+
+.logo {
+    display: flex;
+    margin: 0 0px 0px 180px;
+    /* border: 1px solid purple */
+
+}
+
+.anchor {
+    display: flex;
+	justify-content: space-evenly;
+    width: 700px;
+    margin: 0px 100px 0px 0px;
+	color: black;
+	/* border: 1px solid red; */
+}
+
 .container {
     width: 800px;
     margin: 0 auto;

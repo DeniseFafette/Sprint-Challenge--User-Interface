@@ -236,11 +236,23 @@ footer nav a {
 .about-button {
     border-radius: 5px;
     width: 100px;
+    height: 30px;
 }
 
 .main-aboutcontent {
     display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 60px;
+    width: 48%;
+    margin: 0 auto;
+    border: 1px solid teal;
+}
+
+.main-aboutbox {
+    display:flex;
     flex-direction: column;
-    width: 25%;
+    width: 380px;
+    padding: 10px;
     border-bottom: 1px dashed black;
 }

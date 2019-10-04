@@ -34,13 +34,40 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+    FreeCodeCamp:  “Semantic HTML elements clearly describe it’s meaning in a human and machine readable way. Elements such as <header>, <footer> and <article> are all considered semantic because they accurately describe the purpose of the element and the type of content that is inside them.”
+
+    In other words, think of HTML as a way of setting up the layout of your web page using abbreviations to create different parts of the layout. The abbreviations are called tags. These tags are written in a way that a computer can read and are also meant to be given names that make sense to the typical human. For example, <p> is for paragraph. This gives a consistency to web development both in layout and shared understanding. You can’t mention HTML without CSS. CSS is how you style the web page. Think of how an editor lays out a newspaper. The size and  placement of the pictures and areas of text are the HTML instructions.  The instructions for the style of the text or illustrations are the CSS. For example, color, border and spacing. Of course there is some overlap and interconnectedness. For example, the HTML tag <button> will give a basic button like appearance. However, you, the programmer will customize/stylize the button by changing the shape of the outline or color of the button.
+
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+    display: block;
+        - Starts on a new line ex. <div>
+        - Takes up the full width available
+
+    display: inline;
+        - Does not start on a new line (stays in the line) ex. <span>
+        - Only takes up as much space as it’s content
+
 
 3. What are the 4 areas of the box model?
 
+    1 - Content
+    2 - Padding
+    3 - Border
+    4 - Margin
+
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+    cross axis (vertical alignment or y-axis)
+
 5. Explain why git is valuable to a team of developers.
+
+    Git allows developers to collaborate by creating a remote storage system with version control. The version creates a system that allows multiple developers to work on the same project by creating copies or forked versions that can be merged or incorporated back into the primary version. 
+    
+    Hello merge conflicts - I see you.
+
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 

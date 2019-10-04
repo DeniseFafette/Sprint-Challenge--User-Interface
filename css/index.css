@@ -62,8 +62,52 @@ h1, h2, h3, h4, h5 {
     font-family: 'Rubik', sans-serif;
 }
 
+h2 {
+    padding: 10px;
+}
 p {
     line-height: 1.4;
+    padding: 10px;
+}
+
+.navigation {
+    display: flex;
+	justify-content: space-between;
+	align-items: center;
+    width: 65%;
+    margin: 0 auto;
+    padding: 40px;
+    /* border: 1px solid blue; */
+}
+
+.logo {
+    display: flex;
+    margin: 0 0px 0px 180px;
+    /* border: 1px solid purple */
+
+}
+
+.anchor {
+    display: flex;
+	justify-content: space-evenly;
+    width: 700px;
+    margin: 0px 100px 0px 0px;
+	color: black;
+	/* border: 1px solid red; */
+}
+a:link {
+    text-decoration: none;
+}
+
+a {
+    color: black;
+}
+
+.img-container {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid red; */
 }
 
 .container {
@@ -112,6 +156,46 @@ p {
     justify-content: center;
 }
 
+#box1 {
+    background-color: teal;
+}
+
+#box2 {
+    background-color: gold;
+}
+
+#box3 {
+    background-color: cadetblue;
+}
+
+#box4 {
+    background-color: coral;
+}
+
+#box5 {
+    background-color: crimson;
+}
+
+#box6 {
+    background-color: forestgreen;
+}
+
+#box7 {
+    background-color: darkorchid;
+}
+
+#box8 {
+    background-color: hotpink;
+}
+
+#box9 {
+    background-color: indigo;
+}
+
+#box10 {
+    background-color: dodgerblue;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -144,3 +228,47 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* About Page CSS */
+
+.about-text {
+   margin: 0 auto;
+    width: 43%;
+    /* border: 1px solid red; */
+}
+
+.about-button {
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+}
+
+.main-aboutcontent {
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 60px;
+    width: 48%;
+    margin: 0 auto;
+    /* border: 1px solid teal; */
+}
+
+.main-aboutbox {
+    display:flex;
+    flex-direction: column;
+    width: 380px;
+    padding: 10px;
+    border-bottom: 1px dashed black;
+}
+
+.about-bottomcontent {
+    margin: 0 auto;
+    width: 43%;
+    padding: 20px;
+}
+
+.about-footer {
+    margin: 0 auto;
+    width: 43%;
+}
+

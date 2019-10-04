@@ -224,3 +224,23 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* About Page CSS */
+
+.about-text {
+   margin: 0 auto;
+    width: 43%;
+    /* border: 1px solid red; */
+}
+
+.about-button {
+    border-radius: 5px;
+    width: 100px;
+}
+
+.main-aboutcontent {
+    display:flex;
+    flex-direction: column;
+    width: 25%;
+    border-bottom: 1px dashed black;
+}

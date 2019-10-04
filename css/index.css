@@ -246,7 +246,7 @@ footer nav a {
     padding: 60px;
     width: 48%;
     margin: 0 auto;
-    border: 1px solid teal;
+    /* border: 1px solid teal; */
 }
 
 .main-aboutbox {
@@ -256,3 +256,15 @@ footer nav a {
     padding: 10px;
     border-bottom: 1px dashed black;
 }
+
+.about-bottomcontent {
+    margin: 0 auto;
+    width: 43%;
+    padding: 20px;
+}
+
+.about-footer {
+    margin: 0 auto;
+    width: 43%;
+}
+

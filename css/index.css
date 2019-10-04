@@ -91,6 +91,13 @@ p {
 	color: black;
 	/* border: 1px solid red; */
 }
+a:link {
+    text-decoration: none;
+}
+
+a {
+    color: black;
+}
 
 .img-container {
     padding: 20px;
